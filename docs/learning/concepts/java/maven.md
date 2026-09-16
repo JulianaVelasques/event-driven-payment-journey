@@ -1,8 +1,8 @@
-What is it?
+## Maven
 Maven is a build automation tool and dependency management tool.
 
 Maven allows you to declare dependencies and their versions in a central location (pom.xml), and resolves the dependencies needed to build the project.
-
+```text
 Maven
  │
  ├── Dependency management
@@ -19,3 +19,4 @@ Maven
  │
  └── Packaging
         └── Produce the application artifact
+```
