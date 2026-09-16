@@ -299,10 +299,20 @@ More details about the development workflow can be found in [`AGENTS.md`](AGENTS
 
 The project will evolve over time, but the initial development environment requires:
 
-* Java 21+
-* Maven
+* Java 25 (JDK)
+* Maven 3.9.x
 * Docker
 * Git
+
+### Verify your environment
+```bash
+java -version
+javac -version
+mvn -version
+docker --version
+git --version
+```
+For more details about the project toolchain and version decisions, see docs/learning/notes/project-toolchain.md.
 
 ### Clone the project
 
@@ -315,10 +325,6 @@ cd event-driven-payment-journey
 ### Run the project
 
 The local development setup will be documented as the project progresses.
-
-```bash
-docker compose up --build
-```
 
 ---
 
